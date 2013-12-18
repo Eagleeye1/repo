@@ -15,7 +15,7 @@ public class ThenewBostonActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.activity_thenew_boston);
 		counter = 0;
 		add=(Button) findViewById(R.id.badd);
