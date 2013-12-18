@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your calculations is 0"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvdisplay"/>
+    "
+
+<Button
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="Add one"
+    android:layout_gravity="center"
+    android:textSize="30dp"
+    android:id="@+id/badd"/>
+
+<Button
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="Subtract one"
+    android:layout_gravity="center"
+    android:textSize="30dp"
+    android:id="@+id/bsub"/>
+</LinearLayout>
